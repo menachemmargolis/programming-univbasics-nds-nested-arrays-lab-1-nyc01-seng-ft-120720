@@ -1,5 +1,5 @@
 # Examples inspired by U. S. National Organic Standards
-
+require 'pry'
 ORGANIC_PRODUCE = [
   "Strawberries",
   "Potatoes",
@@ -32,6 +32,7 @@ def sorted_matrix
   CONVENTIONAL_PRODUCE = ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"]
   ORGANIC_PRODUCE = [  "Strawberries",  "Potatoes", "Grapes","Avocadoes", "Asparagus"]
   produce=[[CONVENTIONAL_PRODUCE.sort!],[ORGANIC_PRODUCE.sort!]]
+  binding.pry
   return produce
 end
 
