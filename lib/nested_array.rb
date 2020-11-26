@@ -31,8 +31,8 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
 
 
-  produce=[ORGANIC_PRODUCE.sort,CONVENTIONAL_PRODUCE.sort]
- return produce
+  [ORGANIC_PRODUCE.sort,CONVENTIONAL_PRODUCE.sort]
+  return sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
