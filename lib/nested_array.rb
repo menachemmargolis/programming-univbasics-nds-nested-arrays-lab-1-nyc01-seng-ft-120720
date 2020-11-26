@@ -31,7 +31,7 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   CONVENTIONAL_PRODUCE = ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"]
   ORGANIC_PRODUCE = [  "Strawberries",  "Potatoes", "Grapes","Avocadoes", "Asparagus"]
-  produce[[CONVENTIONAL_PRODUCE.sort!],[ORGANIC_PRODUCE.sort!]]
+  produce=[[CONVENTIONAL_PRODUCE.sort!],[ORGANIC_PRODUCE.sort!]]
   return produce
 end
 
