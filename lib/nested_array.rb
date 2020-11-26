@@ -32,7 +32,7 @@ def sorted_matrix
 
 
   produce=[ORGANIC_PRODUCE.sort,CONVENTIONAL_PRODUCE.sort]
-
+ return produce
 end
 
 def matrix_lookup(matrix, row, column)
