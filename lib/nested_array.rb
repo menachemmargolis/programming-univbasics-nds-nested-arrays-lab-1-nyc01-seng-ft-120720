@@ -32,10 +32,9 @@ def sorted_matrix
   CONVENTIONAL_PRODUCE = ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"]
   ORGANIC_PRODUCE = [  "Strawberries",  "Potatoes", "Grapes","Avocadoes", "Asparagus"]
   produce=[[CONVENTIONAL_PRODUCE.sort!],[ORGANIC_PRODUCE.sort!]]
-  binding.pry
   return produce
 end
-
+binding.pry
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
