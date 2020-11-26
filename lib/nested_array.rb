@@ -33,6 +33,7 @@ def sorted_matrix
 
   [ORGANIC_PRODUCE.sort,CONVENTIONAL_PRODUCE.sort]
   return sorted_matrix
+  binding.pry
 end
 
 def matrix_lookup(matrix, row, column)
