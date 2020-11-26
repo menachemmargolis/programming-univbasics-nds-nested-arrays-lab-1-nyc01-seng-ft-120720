@@ -33,7 +33,7 @@ def sorted_matrix
   kk=CONVENTIONAL_PRODUCE.sort
   jj=ORGANIC_PRODUCE.sort
   produce=[[kk],[jj]]
-
+  binding.pry
 end
 
 def matrix_lookup(matrix, row, column)
